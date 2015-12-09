@@ -1,0 +1,74 @@
+@font-face {
+	font-family: Paradigm; 
+	src: url('../fonts/style_169778.eot');	
+	src: url('../fonts/style_169778.ttf') format('truetype');
+	src: url('../font/style_169778.woff') format('woff');
+}
+
+body { font-family: Paradigm; }
+
+#home img, .work img {
+	max-width: 100%;	
+	display: block;
+	margin: 0 auto;
+}
+
+footer {	
+	text-align: center;
+	font-size: .9em;
+	letter-spacing: .05em;
+}
+
+p {
+	font-size: .9em;
+	line-height: 1.5em;
+}
+
+
+.gallnav {
+	overflow: hidden;	
+	border-bottom: 1px solid #8d7357;
+}
+
+.gallnav:last-of-type {
+	border-bottom: none;
+}
+
+
+.gallnav img {
+	max-width: 33%;	
+	min-width: 150px;
+	float: left;
+	clear: left;
+	margin-right: 1em;
+}
+
+.gallnav p {
+	font-size: .8em;
+	font-weight: normal;
+}
+
+.gallnav > a.ui-link {
+	text-decoration: none;
+	font-family: Paradigm !important;
+}
+
+#siteId {
+	margin: 1em auto 0;
+	width: 210px;
+	height: 89px;
+	background: url('../images/rusticportraitslogo.png') top center no-repeat;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#home header {
+	background: url('../images/bg.jpg') top center;
+}
+
+#main {
+	background: url('../images/bg.jpg') top center;
+}
+
+#main a { background: none; }
